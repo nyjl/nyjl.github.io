@@ -5,6 +5,7 @@ var context = canvas.getContext('2d');
 canvas.addEventListener('mousedown', onMouseDown, false);
 canvas.addEventListener('mouseup', onMouseUp, false);
 canvas.addEventListener('mousemove', onMouseMove, false);
+canvas.addEventListener('mouseleave', onMouseUp, false);
 
 function onMouseDown(e) {
     mouseDown = true;
