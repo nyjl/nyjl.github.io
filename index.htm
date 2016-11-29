@@ -6,7 +6,7 @@
 
 <style>
     .hot-container p { margin-top: 10px; }
-a { text-decoration: none; margin: 0 10px; }
+button { text-decoration: none; margin: 0 10px; }
 
 .hot-container {
 	min-height: 100px;
@@ -15,7 +15,7 @@ a { text-decoration: none; margin: 0 10px; }
 	text-align: center;
 }
 
-a.btn {
+button.btn {
 	display: inline-block;
 	color: #666;
 	background-color: #eee;
@@ -30,31 +30,31 @@ a.btn {
 	border-bottom-width: 3px;
 }
 
-	a.btn:hover {
+	button.btn:hover {
 		background-color: #e3e3e3;
 		border-color: rgba(0,0,0,0.5);
 	}
 	
-	a.btn:active {
+	button.btn:active {
 		background-color: #CCC;
 		border-color: rgba(0,0,0,0.9);
 	}
 
 /* blue button */
 
-a.btn.btn-blue {
+button.btn.btn-blue {
 	background-color: #699DB6;
 	border-color: rgba(0,0,0,0.3);
 	text-shadow: 0 1px 0 rgba(0,0,0,0.5);
 	color: #FFF;
 }
 
-	a.btn.btn-blue:hover {
+	button.btn.btn-blue:hover {
 		background-color: #4F87A2;
 		border-color: rgba(0,0,0,0.5);
 	}
 	
-	a.btn.btn-blue:active {
+	button.btn.btn-blue:active {
 		background-color: #3C677B;
 		border-color: rgba(0,0,0,0.9);
 	}
@@ -82,6 +82,6 @@ a.btn.btn-red {
 <body>
     <div class="hot-container">
 	<button href="#" class="btn btn-blue" onlick='{document.getElementById("photoraz").style.display="block";}'>Find out who is the most beatufil girl in the world</button>
-	    <img id="photoraz" src="https://pp.vk.me/c604621/v604621784/18d12/p-_GmTwSVMQ.jpg">
+	    <img id="photoraz" src="https://pp.vk.me/c604621/v604621784/18d12/p-_GmTwSVMQ.jpg" display="none">
 </div>
 </body>
